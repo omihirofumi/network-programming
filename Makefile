@@ -2,4 +2,4 @@ daytime:
 	@cc -o daytime daytime.c
 
 httpd:
-	@cc -o httpd httpd.c
+	@gcc -g -Wall -o httpd httpd.c
